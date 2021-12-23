@@ -5,13 +5,25 @@ import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
 import { WhatsappComponent } from './whatsapp/whatsapp.component';
+import { ServicesComponent } from './services/services.component';
+import { TeamComponent } from './team/team.component';
+import { FooterComponent } from './footer/footer.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { CovenantsComponent } from './covenants/covenants.component';
+import { TestimoniesComponent } from './testimonies/testimonies.component';
 
 
 @NgModule({
   declarations: [
     HeaderComponent,
     AboutComponent,
-    WhatsappComponent
+    WhatsappComponent,
+    ServicesComponent,
+    TeamComponent,
+    FooterComponent,
+    GalleryComponent,
+    CovenantsComponent,
+    TestimoniesComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +32,13 @@ import { WhatsappComponent } from './whatsapp/whatsapp.component';
   exports: [
     HeaderComponent,
     AboutComponent,
-    WhatsappComponent
+    WhatsappComponent,
+    ServicesComponent,
+    TeamComponent,
+    FooterComponent,
+    GalleryComponent,
+    CovenantsComponent,
+    TestimoniesComponent
   ]
 })
 export class ComponentsModule {}
