@@ -1,0 +1,11 @@
+identifier: kbx8jc99lfueb7a1
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: espaco-natalia
+homeFolder: /Users/lucastoledo/Projetos/espaco-natalia
+distFolder: dist/espaco-natalia
+outDir: /Users/lucastoledo/Projetos/espaco-natalia/dist/static
+handle404: ''
+allowErrorCollect: false
