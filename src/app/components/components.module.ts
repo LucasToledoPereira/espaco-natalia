@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { CovenantsComponent } from './covenants/covenants.component';
 import { TestimoniesComponent } from './testimonies/testimonies.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { TestimoniesComponent } from './testimonies/testimonies.component';
     FooterComponent,
     GalleryComponent,
     CovenantsComponent,
-    TestimoniesComponent
+    TestimoniesComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,
@@ -38,7 +40,8 @@ import { TestimoniesComponent } from './testimonies/testimonies.component';
     FooterComponent,
     GalleryComponent,
     CovenantsComponent,
-    TestimoniesComponent
+    TestimoniesComponent,
+    ContactComponent
   ]
 })
 export class ComponentsModule {}
