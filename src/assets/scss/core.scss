@@ -13,3 +13,11 @@
 .bg-55a491 {
     background: #55a491;
 }
+
+.bg-whats {
+    background-color: #25D366;
+
+    &:hover {
+        background-color: #075E54;
+    }
+}
