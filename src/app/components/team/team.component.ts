@@ -16,18 +16,18 @@ export class TeamComponent {
       photo: 'assets/images/team/nati.png'
     },
     {
-      name: 'Lisiane da Silva Clemente da Luz',
+      name: 'Luana Foljarini',
       profession: 'Fisioterapeuta',
-      number: 'Crefito 127812-F',
-      description: '<p class="mb-4">Bacharel em Fisioterapia pela Universidade do Sul de Santa Catarina (2008).</p><p class="mb-4"> Formação em Pilates Clássico, Solo e Estúdio e Grupos Especiais (2012).</p><p class="mb-4"> Assistência Domiciliar nas áreas de Neurologia, Neuropediatria e Ortopedia.</p>',
-      photo: 'assets/images/graphics/person-icon.svg'
+      number: 'Crefito 337142 - F',
+      description: '<p class="mb-4">Formada em Fisioterapia pela Universidade Luterana do Brasil.</p><p class="mb-4">Formação em Pilates Clássico pelo Instituto Golden e Licenciada em Low Pressure Fitness (LPF).</p><p class="mb-4">Atua nas áreas de Traumato-Ortopedia, Neuro Funcional e Geriatria.</p>',
+      photo: 'assets/images/team/luana.jpeg'
     },
     {
-      name: 'Priscila Agliardi',
+      name: 'Isabela Petry',
       profession: 'Fisioterapeuta',
-      number: '',
-      description: '<p class="mb-4">Bacharel em Fisioterapia pelo Centro Universitário Metodista IPA (2012).</p><p class="mb-4"> Pós-operatório, estética facial e corporal, e liberação miofascial.</p>',
-      photo: 'assets/images/team/priscila.png'
+      number: 'Crefito 227429-F',
+      description: '<p class="mb-4">Doutora em Saúde e Comportamento.</p><p class="mb-4">Pós-graduada em Fisioterapia Pélvica.</p><p class="mb-4">Pós-graduada em Obstetrícia.</p>',
+      photo: 'assets/images/team/isabela.jpeg'
     }
   ]
 
