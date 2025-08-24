@@ -1,0 +1,13 @@
+export default function WhatsApp() {
+  return (
+    <a 
+      className="bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out flex items-center justify-center"
+      href="http://api.whatsapp.com/send?1=pt_BR&phone=5548996018109&text=Gostaria de marcar uma consulta." 
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i className="fab fa-whatsapp mr-2 text-2xl"></i> 
+      Chamar no WhatsApp
+    </a>
+  );
+}
