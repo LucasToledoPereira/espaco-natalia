@@ -73,6 +73,12 @@ All components are in `src/components/`:
 - Custom 404 page
 - Progressive Web App manifest
 - Canonical URLs configured
+- Google Analytics 4 (GA4) integrated
+
+### Analytics
+- Google Analytics 4 tracking enabled (ID: G-D6J6L2PLPS)
+- Uses @next/third-parties package for optimal performance
+- Analytics only loads in production builds
 
 ## Important Notes
 - All components are client components due to interactivity
