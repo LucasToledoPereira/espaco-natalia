@@ -1,0 +1,24 @@
+{
+  "name": "Espaço Natália Toledo - Fisioterapia e Pilates",
+  "short_name": "Espaço Natália",
+  "description": "Fisioterapia especializada, pilates, reabilitação vestibular e quiropraxia em Florianópolis. Localizado no Open Shopping, Ingleses.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#55a491",
+  "theme_color": "#55a491",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/logos/espaco-nat-quadrado-colorido.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logos/espaco-nat-quadrado-colorido.png", 
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["health", "fitness", "medical"],
+  "lang": "pt-BR"
+}

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+}
+
+/* Gradient backgrounds */
+.gradient {
+  background: linear-gradient(90deg, #55a491 0%, #4ade80 100%);
+}
+
+/* Background with image */
+.bg-background {
+  background-image: linear-gradient(rgba(85, 164, 145, 0.8), rgba(85, 164, 145, 0.8)), url('/assets/images/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Wave styling */
+.wave-top {
+  width: 100%;
+  height: auto;
+}
+
+/* WhatsApp colors */
+.bg-whats {
+  background-color: #25D366;
+}
+
+.bg-whats:hover {
+  background-color: #075E54;
+}
