@@ -28,19 +28,6 @@ export default function Covenants() {
               </div>
             </div>
           </ScrollAnimation>
-          <ScrollAnimation direction="up" delay={400}>
-            <div className="w-full p-6">
-              <div className="bg-white rounded-lg shadow-lg p-6 text-center hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                <Image 
-                  className="h-24 mx-auto object-contain" 
-                  src="/assets/images/convenios/premium-saude.png" 
-                  alt="Premium Saúde"
-                  width={200}
-                  height={96}
-                />
-              </div>
-            </div>
-          </ScrollAnimation>
         </div>
 
         <ScrollAnimation direction="fade" delay={600}>

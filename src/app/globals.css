@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import "@fortawesome/fontawesome-free/css/all.min.css";
 
 * {
   box-sizing: border-box;
@@ -34,4 +34,13 @@ body {
 .wave-top {
   width: 100%;
   height: auto;
+}
+
+/* WhatsApp colors */
+.bg-whats {
+  background-color: #25D366;
+}
+
+.bg-whats:hover {
+  background-color: #075E54;
 }

@@ -120,8 +120,8 @@ export default function Services() {
             <div className="w-full sm:w-1/2 p-6 mt-6">
               <Image 
                 className="w-full sm:h-64 mx-auto rounded-lg object-cover hover:scale-105 transition-transform duration-300" 
-                src="/assets/images/services/fisioterapia-pelvica.webp" 
-                alt="Fisioterapia Pélvica"
+                src="/assets/images/services/quiropraxia.jpg" 
+                alt="Quiropraxia"
                 width={400}
                 height={256}
               />
@@ -129,21 +129,11 @@ export default function Services() {
             <div className="flex justify-center items-center w-full sm:w-1/2 p-6 mt-6">
               <div className="align-middle">
                 <h3 className="text-3xl text-gray-800 font-bold leading-none mb-6">
-                  Fisioterapia Pélvica
+                  Quiropraxia
                 </h3>
-                <div className="text-gray-600 mb-8">
-                  <p>Atendimentos individuais destinados ao público feminino para tratar os seguintes casos:</p>
-                  <ul className="list-disc list-inside mt-4 space-y-2">
-                    <li>Disfunções miccionais: incontinência urinária (escapes ou perda de xixi), bexiga hiperativa (desejo repentino de urinar), retenção urinária (dificuldade em urinar);</li>
-                    <li>Disfunções anorretais: constipação, incontinência fecal (escapes de gases ou conteúdo fecal);</li>
-                    <li>Auxílio na preparação e reabilitação de cirurgias pélvicas;</li>
-                    <li>Diástase abdominal;</li>
-                    <li>Preparo para o parto e reabilitações pós-parto;</li>
-                    <li>Prolapsos de órgãos pélvicos (bexiga caída);</li>
-                    <li>Disfunções sexuais femininas (desconforto ou dor na região íntima);</li>
-                    <li>Tratamento de sinais e sintomas da endometriose e adenomiose.</li>
-                  </ul>
-                </div>
+                <p className="text-gray-600 mb-8">
+                 No tratamento quiroprático, podem ser utilizadas técnicas manuais específicas, incluindo pequenos estalos quando necessário, com o objetivo de equilibrar o sistema neuro-músculo-esquelético e reduzir o risco de lesões. A prática combina evidências científicas e experiência clínica para prevenir, identificar e tratar disfunções que afetam o movimento do corpo, promovendo melhora na performance, qualidade de vida e alívio da dor.
+                </p>
               </div>
             </div>
           </div>
@@ -180,6 +170,39 @@ export default function Services() {
                 width={400}
                 height={256}
               />
+            </div>
+          </div>
+        </ScrollAnimation>
+
+        {/* Reabilitação Vestibular */}
+        <ScrollAnimation direction="up" delay={1400}>
+          <div className="flex flex-wrap flex-col-reverse sm:flex-row">
+            <div className="w-full sm:w-1/2 p-6 mt-6">
+              <Image 
+                className="w-full sm:h-64 mx-auto rounded-lg object-cover hover:scale-105 transition-transform duration-300" 
+                src="/assets/images/services/reabilitacao-vestibular.jpg" 
+                alt="Reabilitação Vestibular"
+                width={400}
+                height={256}
+              />
+            </div>
+            <div className="flex justify-center items-center w-full sm:w-1/2 p-6 mt-6">
+              <div className="align-middle">
+                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-6">
+                  Reabilitação Vestibular
+                </h3>
+                <div className="text-gray-600 mb-8">
+                  <p>A Fisioterapia Vestibular é uma área de atuação da Fisioterapia focada no tratamento de distúrbios do sistema vestibular (vertigem, desequilíbrio e tonturas persistentes).</p>
+                  <p className="mt-4">Distúrbios vestibulares:</p>
+                  <ul className="list-disc list-inside mt-2 space-y-1">
+                    <li>Neurite vestibular;</li>
+                    <li>Labirintite;</li>
+                    <li>VPPB (Vertigem Posicional Paroxística Benigna);</li>
+                    <li>Doença de Meniére;</li>
+                    <li>Pós-trauma na cabeça e no ouvido.</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </ScrollAnimation>

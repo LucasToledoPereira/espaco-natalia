@@ -7,19 +7,25 @@ export const metadata: Metadata = {
     default: "Espaço Natália Toledo - Fisioterapia e Pilates em Florianópolis",
     template: "%s | Espaço Natália Toledo"
   },
-  description: "Espaço Natália Toledo oferece fisioterapia pré e pós-operatório, pilates, liberação miofascial e fisioterapia pélvica em Florianópolis. Localizado no bairro Ingleses, Norte da Ilha.",
+  description: "Espaço Natália Toledo oferece fisioterapia pré e pós-operatório, pilates, liberação miofascial, fisioterapia pélvica, reabilitação vestibular e quiropraxia em Florianópolis. Localizado no Open Shopping, Ingleses.",
   keywords: [
     "fisioterapia",
     "pilates", 
     "fisioterapia pélvica",
     "liberação miofascial",
+    "reabilitação vestibular",
+    "quiropraxia",
     "florianópolis",
     "ingleses",
     "fisioterapia domiciliar",
     "low pressure fitness",
     "LPF",
     "pré-operatório",
-    "pós-operatório"
+    "pós-operatório",
+    "vertigem",
+    "labirintite",
+    "tonturas",
+    "open shopping"
   ],
   authors: [{ name: "Natália Toledo" }],
   creator: "Espaço Natália Toledo",
@@ -86,15 +92,16 @@ export default function RootLayout({
               "telephone": "+55-48-99601-8109",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Rua dos Ingleses",
-                "addressLocality": "Florianópolis",
+                "streetAddress": "Open Shopping - Rod. João Gualberto Soares, 56 - Sala 105",
+                "addressLocality": "Ingleses do Rio Vermelho, Florianópolis",
                 "addressRegion": "SC",
-                "addressCountry": "BR"
+                "addressCountry": "BR",
+                "postalCode": "88058-500"
               },
               "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": "-27.4342",
-                "longitude": "-48.3965"
+                "latitude": "-27.439877",
+                "longitude": "-48.402277"
               },
               "openingHoursSpecification": [
                 {
@@ -163,6 +170,20 @@ export default function RootLayout({
                     "itemOffered": {
                       "@type": "Service",
                       "name": "Fisioterapia Domiciliar"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Reabilitação Vestibular"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Quiropraxia"
                     }
                   }
                 ]
