@@ -22,15 +22,6 @@ const teamMembers: TeamMember[] = [
     description: 'Fisioterapeuta fundadora, pós-graduada em Ortopedia, Traumatologia e Terapia Manual e Postural (CESUMAR). Com mais de 13 anos de experiência clínica, possui formações em Mulligan Concept, Biomecânica aplicada à reabilitação e Fisioterapia Ortopédica e Desportiva baseada em PNF. Especialista em reabilitação funcional de joelho e ombro, combinando ciência e prática avançada para promover recuperação, performance e qualidade de vida.'
   },
   {
-    id: 2,
-    name: "Isabela Petry",
-    role: "Fisioterapeuta",
-    image: "/assets/images/team/isabela.jpeg",
-    alt: "Isabela Petry",
-    code: 'Crefito 227429-F',
-    description: 'Doutora em Saúde e Comportamento, com pós-graduação em Fisioterapia Pélvica e Obstetrícia. Atua com foco na saúde integral da mulher, unindo ciência e cuidado especializado.'
-  },
-  {
     id: 3,
     name: "Luana Foljarini",
     role: "Fisioterapeuta",
