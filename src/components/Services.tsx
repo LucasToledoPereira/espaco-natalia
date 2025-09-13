@@ -4,7 +4,7 @@ import { ScrollAnimation } from './ScrollAnimations';
 export default function Services() {
   return (
     <section id="servicos" className="bg-white py-8">
-      <div className="container max-w-5xl mx-auto m-8">
+      <div className="container max-w-5xl mx-auto px-4 md:px-8">
         <ScrollAnimation direction="fade">
           <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
             Serviços

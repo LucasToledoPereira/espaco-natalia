@@ -3,8 +3,8 @@ import { ScrollAnimation } from './ScrollAnimations';
 
 export default function Contact() {
   return (
-    <section id="contato" className="bg-gray-100 py-8">
-      <div className="container max-w-5xl mx-auto m-8">
+    <section id="contato" className="bg-gray-100 py-8 overflow-hidden">
+      <div className="container max-w-5xl mx-auto px-4 md:px-8 py-8">
         <ScrollAnimation direction="fade">
           <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
             Contato
