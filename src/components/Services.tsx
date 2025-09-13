@@ -145,19 +145,16 @@ export default function Services() {
             <div className="flex justify-center items-center w-full sm:w-1/2 p-6 mt-6">
               <div className="align-middle">
                 <h3 className="text-3xl text-gray-800 font-bold leading-none mb-6">
-                  Low Pressure Fitness (LPF)
+                 Fisioterapia Craniocervicomandibular
                 </h3>
                 <div className="text-gray-600 mb-8">
-                  <p>Também conhecido como a técnica da barriga negativa, consiste em um sistema de treinamento postural e respiratório. Além disso, o método compreende a mobilização neuro miofascial, exercícios neurodinâmicos, reeducação postural e o conceito hipopressivo.</p>
-                  <p className="mt-4">Benefícios do método:</p>
+                  <p>É uma área de atuação da Fisioterapia que trata disfunções na articulação temporomandibular (ATM), cervical e no crânio.</p>
+                  <p className="mt-4">Para que serve:</p>
                   <ul className="list-disc list-inside mt-4 space-y-2">
-                    <li>Redução da circunferência abdominal;</li>
-                    <li>Fortalecimento do assoalho pélvico e prevenção/tratamento para a Incontinência urinária;</li>
-                    <li>Melhora o desempenho sexual;</li>
-                    <li>Auxilia na gestação e na recuperação do parto;</li>
-                    <li>Aumento da capacidade respiratória;</li>
-                    <li>Reduz o estresse;</li>
-                    <li>Melhora o funcionamento do intestino.</li>
+                    <li>Aliviar dor de cabeça, orofacial e cervical;</li>
+                    <li>Restaura a mobilidade da articulação, diminuindo estalos ou limitações na abertura da boca;</li>
+                    <li>Melhora a função mastigatória;</li>
+                    <li>⁠Auxilia no controle do Bruxismo;</li>
                   </ul>
                 </div>
               </div>
@@ -165,8 +162,8 @@ export default function Services() {
             <div className="w-full sm:w-1/2 p-6">
               <Image 
                 className="w-full sm:h-64 mx-auto rounded-lg object-cover hover:scale-105 transition-transform duration-300" 
-                src="/assets/images/services/lpf.webp" 
-                alt="Low Pressure Fitness"
+                src="/assets/images/services/atm.jpg" 
+                alt="Fisioterapia Craniocervicomandibular"
                 width={400}
                 height={256}
               />

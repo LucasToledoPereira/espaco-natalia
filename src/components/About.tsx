@@ -26,7 +26,7 @@ export default function About() {
             </ScrollAnimation>
             <ScrollAnimation delay={600}>
               <p className="text-gray-200 font-light mb-8">
-                Entre as especialidades, destacamos Fisioterapia pré e pós-operatório, Pilates solo e aparelhos, Liberação Miofascial e Fisioterapia Pélvica.
+                Entre as especialidades, destacamos Fisioterapia ortopédica e traumatológica, Pilates solo e aparelhos e liberação Miofascial.
               </p>
             </ScrollAnimation>
             <ScrollAnimation delay={800} className='w-full md:w-auto flex justify-center'>

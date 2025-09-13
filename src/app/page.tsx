@@ -74,7 +74,7 @@ export default function Home() {
 
       {/* Fixed WhatsApp Button */}
       <a 
-        className="fixed rounded-full w-20 h-20 bg-whats bottom-4 right-4 flex items-center justify-center text-white cursor-pointer animate-bounce" 
+        className="fixed rounded-full w-20 h-20 bg-whats bottom-4 right-4 flex items-center justify-center text-white cursor-pointer animate-bounce z-50" 
         href="http://api.whatsapp.com/send?1=pt_BR&phone=5548996018109&text=Gostaria de marcar uma consulta." 
         target="_blank"
         rel="noopener noreferrer"

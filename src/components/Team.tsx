@@ -42,7 +42,7 @@ const teamMembers: TeamMember[] = [
   {
     id: 5,
     name: "Leonardo Luis dos Santos",
-    role: "Fisioterapeuta",
+    role: "Quiropraxista",
     image: "/assets/images/team/leonardo.jpeg",
     alt: "Leonardo Luis dos Santos",
     code: '',

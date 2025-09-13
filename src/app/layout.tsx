@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     "fisioterapia domiciliar",
     "low pressure fitness",
     "LPF",
+    "",
     "pré-operatório",
     "pós-operatório",
     "vertigem",
@@ -63,9 +64,6 @@ export const metadata: Metadata = {
     title: 'Espaço Natália Toledo - Fisioterapia e Pilates',
     description: 'Fisioterapia especializada e pilates em Florianópolis',
     images: ['/assets/logos/espaco-nat-quadrado-colorido.png'],
-  },
-  verification: {
-    google: 'your-google-site-verification-code', // Replace with actual verification code
   },
   manifest: '/manifest.json',
   alternates: {
