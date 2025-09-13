@@ -21,13 +21,21 @@ export const metadata: Metadata = {
     "fisioterapia domiciliar",
     "low pressure fitness",
     "LPF",
-    "",
     "pré-operatório",
     "pós-operatório",
     "vertigem",
     "labirintite",
     "tonturas",
-    "open shopping"
+    "open shopping",
+    "fisioterapeuta",
+    "pilates clínico",
+    "dor nas costas",
+    "reabilitação",
+    "natália toledo",
+    "fisioterapia neurológica",
+    "tratamento postural",
+    "RPG",
+    "santa catarina"
   ],
   authors: [{ name: "Natália Toledo" }],
   creator: "Espaço Natália Toledo",
@@ -49,21 +57,22 @@ export const metadata: Metadata = {
     url: 'https://espaconatalia.com.br',
     siteName: 'Espaço Natália Toledo',
     title: 'Espaço Natália Toledo - Fisioterapia e Pilates em Florianópolis',
-    description: 'Espaço especializado em fisioterapia, pilates e bem-estar em Florianópolis. Atendimento profissional com Natália Toledo.',
+    description: 'Fisioterapia especializada, pilates clínico, liberação miofascial e reabilitação vestibular em Florianópolis. Localizado no Open Shopping, Ingleses. Agende sua consulta!',
     images: [
       {
-        url: '/assets/logos/espaco-nat-quadrado-colorido.png',
-        width: 400,
-        height: 400,
-        alt: 'Logo Espaço Natália Toledo',
+        url: 'https://espaconatalia.com.br/assets/logos/espaco-nat-quadrado-colorido.png',
+        width: 512,
+        height: 512,
+        alt: 'Logo Espaço Natália Toledo - Fisioterapia e Pilates',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Espaço Natália Toledo - Fisioterapia e Pilates',
-    description: 'Fisioterapia especializada e pilates em Florianópolis',
-    images: ['/assets/logos/espaco-nat-quadrado-colorido.png'],
+    title: 'Espaço Natália Toledo - Fisioterapia e Pilates em Florianópolis',
+    description: 'Fisioterapia especializada, pilates clínico, liberação miofascial e reabilitação vestibular. Open Shopping, Ingleses.',
+    images: ['https://espaconatalia.com.br/assets/logos/espaco-nat-quadrado-colorido.png'],
+    creator: '@natifisio',
   },
   manifest: '/manifest.json',
   alternates: {
@@ -127,66 +136,83 @@ export default function RootLayout({
               },
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
-                "name": "Serviços de Fisioterapia",
+                "name": "Serviços de Fisioterapia e Pilates",
                 "itemListElement": [
                   {
                     "@type": "Offer",
                     "itemOffered": {
-                      "@type": "Service",
-                      "name": "Fisioterapia Pré e Pós Operatório"
+                      "@type": "MedicalTherapy",
+                      "name": "Fisioterapia Pré e Pós Operatório",
+                      "description": "Tratamento especializado para preparo e recuperação de cirurgias ortopédicas e estéticas"
                     }
                   },
                   {
                     "@type": "Offer", 
                     "itemOffered": {
-                      "@type": "Service",
-                      "name": "Pilates Solo e Aparelhos"
+                      "@type": "ExerciseTherapy",
+                      "name": "Pilates Solo e Aparelhos",
+                      "description": "Pilates clínico e condicionamento físico com aparelhos e solo"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
-                      "@type": "Service", 
-                      "name": "Fisioterapia Pélvica"
+                      "@type": "MedicalTherapy", 
+                      "name": "Fisioterapia Pélvica",
+                      "description": "Tratamento especializado para disfunções do assoalho pélvico"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
-                      "@type": "Service",
-                      "name": "Liberação Miofascial"
+                      "@type": "MedicalTherapy",
+                      "name": "Liberação Miofascial",
+                      "description": "Técnica de liberação de tensões musculares e fasciais"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
-                      "@type": "Service",
-                      "name": "Low Pressure Fitness (LPF)"
+                      "@type": "ExerciseTherapy",
+                      "name": "Low Pressure Fitness (LPF)",
+                      "description": "Técnica de exercícios hipopressivos para fortalecimento do core"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
-                      "@type": "Service",
-                      "name": "Fisioterapia Domiciliar"
+                      "@type": "MedicalTherapy",
+                      "name": "Fisioterapia Domiciliar",
+                      "description": "Atendimento fisioterapêutico no conforto da sua casa"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
-                      "@type": "Service",
-                      "name": "Reabilitação Vestibular"
+                      "@type": "MedicalTherapy",
+                      "name": "Reabilitação Vestibular",
+                      "description": "Tratamento para vertigem, labirintite e distúrbios do equilíbrio"
                     }
                   },
                   {
                     "@type": "Offer",
                     "itemOffered": {
-                      "@type": "Service",
-                      "name": "Quiropraxia"
+                      "@type": "MedicalTherapy",
+                      "name": "Quiropraxia",
+                      "description": "Tratamento de disfunções da coluna vertebral e articulações"
                     }
                   }
                 ]
-              }
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5.0",
+                "reviewCount": "38",
+                "bestRating": "5"
+              },
+              "priceRange": "$",
+              "paymentAccepted": "Dinheiro, Cartão, PIX",
+              "currenciesAccepted": "BRL"
             })
           }}
         />

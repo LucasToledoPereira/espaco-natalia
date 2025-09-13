@@ -16,7 +16,7 @@ export default function About() {
           <ScrollAnimation direction="left" className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
             <ScrollAnimation delay={200}>
               <h1 className="my-4 text-5xl text-white font-bold leading-tight">
-                Espaço Natália Toledo
+                Espaço Natália Toledo - Fisioterapia e Pilates
               </h1>
             </ScrollAnimation>
             <ScrollAnimation delay={400}>

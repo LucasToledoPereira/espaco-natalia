@@ -12,7 +12,7 @@ import WhatsApp from '@/components/WhatsApp';
 
 export const metadata: Metadata = {
   title: 'Espaço Natália Toledo - Fisioterapia e Pilates em Florianópolis',
-  description: 'Fisioterapia especializada, pilates, liberação miofascial, fisioterapia pélvica, reabilitação vestibular e quiropraxia em Florianópolis. Atendimento profissional no Open Shopping, Ingleses. Agende sua consulta!',
+  description: 'Fisioterapia especializada, pilates clínico, liberação miofascial, fisioterapia pélvica, reabilitação vestibular e quiropraxia em Florianópolis. Atendimento profissional no Open Shopping, Ingleses. Agende sua consulta com Natália Toledo!',
   alternates: {
     canonical: 'https://espaconatalia.com.br',
   },
