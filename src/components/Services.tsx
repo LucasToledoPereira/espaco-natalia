@@ -28,7 +28,7 @@ export default function Services() {
             </div>
             <div className="flex justify-center items-center w-full sm:w-1/2 p-6 mt-6">
               <div className="align-middle">
-                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-6">
+                <h3 className="text-2xl text-gray-800 font-bold leading-none mb-6">
                   Pilates Solo e Aparelhos
                 </h3>
                 <p className="text-gray-600 mb-8">
@@ -44,7 +44,7 @@ export default function Services() {
           <div className="flex flex-wrap">
             <div className="flex justify-center items-center w-full sm:w-1/2 p-6 mt-6">
               <div className="align-middle">
-                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-6">
+                <h3 className="text-2xl text-gray-800 font-bold leading-none mb-6">
                   Liberação Miofascial
                 </h3>
                 <p className="text-gray-600 mb-8">
@@ -78,7 +78,7 @@ export default function Services() {
             </div>
             <div className="flex justify-center items-center w-full sm:w-1/2 p-6 mt-6">
               <div className="align-middle">
-                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-6">
+                <h3 className="text-2xl text-gray-800 font-bold leading-none mb-6">
                   Fisioterapia Pré e Pós Operatório
                 </h3>
                 <p className="text-gray-600 mb-8">
@@ -94,7 +94,7 @@ export default function Services() {
           <div className="flex flex-wrap">
             <div className="flex justify-center items-center w-full sm:w-1/2 p-6 mt-6">
               <div className="align-middle">
-                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-6">
+                <h3 className="text-2xl text-gray-800 font-bold leading-none mb-6">
                   Fisioterapia domiciliar
                 </h3>
                 <p className="text-gray-600 mb-8">
@@ -128,7 +128,7 @@ export default function Services() {
             </div>
             <div className="flex justify-center items-center w-full sm:w-1/2 p-6 mt-6">
               <div className="align-middle">
-                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-6">
+                <h3 className="text-2xl text-gray-800 font-bold leading-none mb-6">
                   Quiropraxia
                 </h3>
                 <p className="text-gray-600 mb-8">
@@ -144,7 +144,7 @@ export default function Services() {
           <div className="flex flex-wrap">
             <div className="flex justify-center items-center w-full sm:w-1/2 p-6 mt-6">
               <div className="align-middle">
-                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-6">
+                <h3 className="text-2xl text-gray-800 font-bold leading-none mb-6">
                  Fisioterapia Craniocervicomandibular
                 </h3>
                 <div className="text-gray-600 mb-8">
@@ -185,7 +185,7 @@ export default function Services() {
             </div>
             <div className="flex justify-center items-center w-full sm:w-1/2 p-6 mt-6">
               <div className="align-middle">
-                <h3 className="text-3xl text-gray-800 font-bold leading-none mb-6">
+                <h3 className="text-2xl text-gray-800 font-bold leading-none mb-6">
                   Reabilitação Vestibular
                 </h3>
                 <div className="text-gray-600 mb-8">
