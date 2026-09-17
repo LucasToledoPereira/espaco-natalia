@@ -22,15 +22,6 @@ const teamMembers: TeamMember[] = [
     description: 'Fisioterapeuta fundadora, pós-graduada em Ortopedia, Traumatologia e Terapia Manual e Postural (CESUMAR). Com mais de 13 anos de experiência clínica, possui formações em Mulligan Concept, Biomecânica aplicada à reabilitação e Fisioterapia Ortopédica e Desportiva baseada em PNF. Especialista em reabilitação funcional de joelho e ombro, combinando ciência e prática avançada para promover recuperação, performance e qualidade de vida.'
   },
   {
-    id: 3,
-    name: "Luana Foljarini",
-    role: "Fisioterapeuta",
-    image: "/assets/images/team/luana.jpeg",
-    alt: "Luana Foljarini",
-    code: 'Crefito 337142 - F',
-    description: 'Fisioterapeuta formada pela Universidade Luterana do Brasil, com especialização em Pilates Clássico pelo Instituto Golden e certificação em Low Pressure Fitness (LPF). Atua nas áreas de Traumato-Ortopedia, Neurofuncional e Geriatria, promovendo saúde, movimento e qualidade de vida em diferentes fases da vida.'
-  },
-  {
     id: 4,
     name: "João Paulo Termehr",
     role: "Fisioterapeuta",
